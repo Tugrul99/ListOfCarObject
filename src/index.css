@@ -1,0 +1,39 @@
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(62,55,191);
+background: linear-gradient(90deg, rgba(62,55,191,0.510329131652661) 0%, rgba(177,8,94,0.6587885154061625) 75%, rgba(57,129,41,0.7176120448179272) 100%);
+}
+
+.input-clas > input {
+  padding: 15px 20px;
+  border-radius: 10px 15px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+li {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  list-style: none;
+ margin: auto;
+}
+
+.input-clas {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 5px 45px;
+  border-radius: 25px;
+  background: linear-gradient(90deg, rgba(0,0,0,0.510329131652661) 0%, rgba(100,85,122,0.6587885154061625) 75%, rgba(3,10,1,0.7176120448179272) 100%);
+}
+
+.button-clas {
+  position: relative;
+  left: 6em;
+  width: 2rem;
+}
